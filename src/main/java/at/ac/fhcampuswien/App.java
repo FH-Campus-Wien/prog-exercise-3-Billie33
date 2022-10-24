@@ -1,13 +1,12 @@
 package at.ac.fhcampuswien;
 
-import java.util.Random;
+//import java.util.Random;
 import java.util.Scanner;
 
 public class App {
-<<<<<<< HEAD
 
-    // Implement all methods as public static
-=======
+
+
   public static void oneMonthCalendar(int totalDays, int startDay){
       int dayCount = 1;
       int row = 0;
@@ -68,10 +67,10 @@ public class App {
           }
       }
   }
-  public static int randomNumberBetweenOneandHundred(){
+  /*public static int randomNumberBetweenOneandHundred(){
       Random number = new Random();
       return number.nextInt(100) + 1;
-  }
+  }*/
   public static boolean swapArrays(int [] array1, int [] array2){
       if (array1.length == array2.length){
           int variable;
@@ -120,7 +119,9 @@ public class App {
       return controlDigit;
   }
 
->>>>>>> 9628aea (Initial commit)
+//>>>>>>> 9628aea (Initial commit){
+
+
 
     public static void main(String[] args) {
         // test your method implementations here
